@@ -1,0 +1,10 @@
+menu "Mongoose"
+
+config MG_ENABLE_FILESYSTEM
+    bool "Enable Filesystem"
+    default n
+    help
+        For enable the filesystem support.
+
+		
+endmenu
