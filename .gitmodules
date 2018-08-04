@@ -1,6 +1,3 @@
-[submodule "mongoose"]
+[submodule "mongoose/mongoose"]
 	path = mongoose/mongoose
 	url = https://github.com/ViaMonkey/mongoose.git
-[submodule "libtelnet"]
-	path = libtelnet/libtelnet
-	url = https://github.com/ViaMonkey/libtelnet.git
