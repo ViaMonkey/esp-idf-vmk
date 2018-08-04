@@ -33,8 +33,6 @@
 #define _mongoose_mongoose_H
 
 
-#include "<mongoose.h"
-
 #ifdef __cplusplus
 extern "C" {
 #endif
@@ -42,7 +40,7 @@ extern "C" {
 
 #define MG_ENABLE_FILESYSTEM 	CONFIG_MG_ENABLE_FILESYSTEM
 
-
+#include "mongoose.h"
 
 #ifdef __cplusplus
 }
