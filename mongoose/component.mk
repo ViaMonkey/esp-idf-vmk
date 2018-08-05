@@ -13,7 +13,7 @@ CFLAGS += -DMG_ENABLE_FILESYSTEM=1
 endif
 
 ifdef CONFIG_MG_ENABLE_TELNET
-COMPONENT_SRCDIRS += mongoose_protocols/telnet
-COMPONENT_ADD_INCLUDEDIRS += mongoose_protocols/telnet
+COMPONENT_SRCDIRS += mongoose-protocols/telnet
+COMPONENT_ADD_INCLUDEDIRS += mongoose-protocols/telnet
 CFLAGS += -DMG_ENABLE_TELNET=1
 endif
