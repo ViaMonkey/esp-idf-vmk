@@ -35,6 +35,7 @@
 
 #include "mongoose_config.h"
 #include "../../mongoose/mongoose.h"
+#include "../../mongoose-protocols/mg_telnet.h"
 
 
 

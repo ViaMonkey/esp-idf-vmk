@@ -41,7 +41,17 @@ extern "C" {
 
 #ifdef CONFIG_MG_ENABLE_FILESYSTEM
 #define MG_ENABLE_FILESYSTEM 	1
+#else
+#define MG_ENABLE_FILESYSTEM 	0
 #endif
+
+
+#ifdef CONFIG_MG_ENABLE_TELNET
+#define MG_ENABLE_TELNET 	1
+#else
+#define MG_ENABLE_TELNET 	0
+#endif
+
 
 #ifdef __cplusplus
 }
