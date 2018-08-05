@@ -29,13 +29,22 @@
 *
 *******************************************************************************/
 
-#ifndef _MONGOOSE_H
-#define _MONGOOSE_H
+#ifndef _MONGOOSE_CONFIG_H
+#define _MONGOOSE_CONFIG_H
+
+#include <sdkconfig.h>
+
+#ifdef __cplusplus
+extern "C" {
+#endif
 
 
-#include "mongoose_config.h"
-#include "../../mongoose/mongoose.h"
+#ifdef CONFIG_MG_ENABLE_FILESYSTEM
+#define MG_ENABLE_FILESYSTEM 	1
+#endif
 
+#ifdef __cplusplus
+}
+#endif
 
-
-#endif /* _MONGOOSE_H */
+#endif /* _MONGOOSE_CONFIG_H */

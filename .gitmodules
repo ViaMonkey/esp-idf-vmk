@@ -4,3 +4,6 @@
 [submodule "mongoose/mongoose"]
 	path = mongoose/mongoose
 	url = https://github.com/ViaMonkey/mongoose.git
+[submodule "mongoose/mongoose-protocols"]
+	path = mongoose/mongoose-protocols
+	url = https://github.com/ViaMonkey/mongoose-protocols.git

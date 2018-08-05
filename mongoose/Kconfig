@@ -5,6 +5,12 @@ config MG_ENABLE_FILESYSTEM
     default n
     help
         For enable the filesystem support.
+		
+config MG_ENABLE_TELNET
+    bool "Enable Telnet"
+    default n
+    help
+        For enable the telnet support.
 
 		
 endmenu
