@@ -7,3 +7,6 @@
 [submodule "mongoose/mongoose-protocols"]
 	path = mongoose/mongoose-protocols
 	url = https://github.com/ViaMonkey/mongoose-protocols.git
+[submodule "shell-vmk/shell"]
+	path = shell-vmk/shell
+	url = https://github.com/ViaMonkey/shell.git
